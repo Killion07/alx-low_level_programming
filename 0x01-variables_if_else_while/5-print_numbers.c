@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- *main - prints numbers 1 to 9
+ * main - prints numbers 1 to 9
  *
- *Return 0
+ * Return: 0
 */
+
 int main(void)
 {
 	int n = 0;
