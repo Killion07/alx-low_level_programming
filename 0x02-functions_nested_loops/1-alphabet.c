@@ -2,7 +2,6 @@
 /**
  * print_alphabet - print alphabets a to z
  *
- * Return: 0
  */
 
 void print_alphabet(void)
@@ -15,6 +14,5 @@ void print_alphabet(void)
 		al++;
 	}
 	_putchar('\n');
-
-	return (0);
 }
+
