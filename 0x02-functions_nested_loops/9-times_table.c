@@ -16,15 +16,19 @@ void times_table(void)
 			c = b * a;
 
 			if (c <= 9)
+			{
 				_putchar(c + '0');
 				_putchar(',');
 				_putchar(' ');
+			}
 
 			else
+			{
 				_putchar(c / 10 + '0');
 				_putchar(c % 10 + '0');
 				_putchar(',');
 				_putchar(' ');
+			}
 		}
 	_putchar('\n');
 	}
