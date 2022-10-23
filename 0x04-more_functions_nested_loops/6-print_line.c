@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *
- *
+ * print_line -Printing a line
+ * @n: Length of the line
  */
 void print_line(int n)
 {
