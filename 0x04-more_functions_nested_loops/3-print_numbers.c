@@ -4,7 +4,7 @@
  */
 void print_numbers(void)
 {
-	int a = 0;
+	char a = 0;
 
 	while (a <= 9)
 	{
