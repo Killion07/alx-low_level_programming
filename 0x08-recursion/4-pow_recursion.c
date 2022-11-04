@@ -3,6 +3,7 @@
  * _pow_recursion - Function for pow calculation
  * @x: Base
  * @y: Power form
+ * Return: Returns the calculated value
  */
 int _pow_recursion(int x, int y)
 {
@@ -13,5 +14,5 @@ int _pow_recursion(int x, int y)
 		return (1);
 
 	else
-		return (x * _pow_recursion(x, y-1));
-}	
+		return (x * _pow_recursion(x, y - 1));
+}
