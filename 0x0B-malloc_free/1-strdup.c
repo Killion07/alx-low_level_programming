@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
 /**
  * _strdup - Fuction for coppying
  * @str: String to be copied
